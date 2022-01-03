@@ -1,0 +1,21 @@
+//globals
+@use "./partials/globals/fontstack";
+@use "./partials/globals/colorscheme";
+@use "./partials/globals/logic";
+@use "./partials/globals/global-styles";
+
+
+//utils
+@use "./partials/utils/text-quick-style";
+
+
+//sections
+@use "./partials/sections/nav";
+@use "./partials/sections/showcase-stats";
+@use "./partials/sections/background-decor";
+@use "./partials/sections/featured-frontpage";
+
+//components
+@use "./partials/components/button";
+@use "./partials/components/quickstyle";
+

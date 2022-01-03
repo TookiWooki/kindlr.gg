@@ -1,0 +1,72 @@
+@import "../globals/fontstack";
+@import "../globals/colorscheme";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//width padding globally on each page
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+}
+
+p {
+    font-family: $font-body;
+}
+
+//If the pointer is over a link, display a pointer for the mouse
+a {
+    cursor: pointer;
+  }
+
+
+
+
+//section headings/titles
+.section-title {
+    text-transform: uppercase;
+    color: $gray600;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+//center & clamp container
+.center-and-clamp {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//add some space to the LARGE heading
+.main-page-heading {
+    margin-top: 40px;
+}
+
+//hover on a link turns purple
+.link-hover-purple {
+    font-size: 14px;
+
+    &:hover{
+        color: $byzantium;
+    }
+}
+
+//hover on a link turns purple & underlined
+.link-hover-purple-underline {
+
+    &:hover{
+        color: $byzantium;
+        text-decoration: underline;
+    }
+}

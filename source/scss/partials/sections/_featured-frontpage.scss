@@ -1,0 +1,260 @@
+@import "../globals/colorscheme";
+
+//container
+.featured-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+////////////////////
+//left container///
+//////////////////
+.featured-left {
+    width: 50%;
+    padding-right: 40px;
+    border-right: 1px solid $gray200;
+    
+    //game image
+    img{
+        width: 100%;
+    }
+    
+    //game title
+    h2 {
+        margin-bottom: 20px;
+    }
+
+}
+
+//percent funded tag
+.tag-container {
+    position: relative;
+}
+
+.percent-funded-tag {
+    font-size: 16px;
+    color: white;
+    background-color: $byzantium;
+    border-radius: 8px 0px 0px 8px;
+    padding: 4px 10px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    box-shadow: -2px 2px 4px $dark-purple;
+}
+
+//featured footer container
+.featured-footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+//platforms available to play
+.footer-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    p{
+        font-size: 14px;
+        color: $gray600;
+    }
+
+}
+
+////////////////////
+//right container//
+//////////////////
+.featured-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+
+// user information from Steam API
+.user-steam-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $gray200;
+
+    //user steam profile image
+    img {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+}
+
+// user's Steam game library total and acheievement total
+.user-steam-name-stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-steam-stats {
+   display: flex;
+   flex-direction: row;
+   margin-top: 5px;
+
+   p {
+       color: $gray600;
+       font-size: 13px;
+       font-weight: 400;
+       margin-right: 15px;
+   }
+}
+
+
+//Kindlr Activity Feed - short
+.recent-kindlr-activity-container {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+//activity card/item
+.activity-item {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+
+    img {
+        width: 192px;
+        height: 108px;
+        margin-right: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+}
+
+//special style for pledging to a campaign
+.campaign-pledged {
+    box-shadow: -4px 0px 5px -4px $byzantium;
+    border-radius: 2px;
+}
+
+//special style for a campaign update
+.campaign-update {
+    box-shadow: -4px 0px 3px -4px $green-munsell;
+    border-radius: 2px;
+
+    img {
+        width: 120px;
+        height: 67.5px;
+    }
+}
+
+#campaign-update-tag {
+    color: $green-munsell;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    padding-bottom: 0px;
+}
+
+//activity description conatiner
+.activity-item-description {
+    display: flex;
+    flex-direction: column;
+}
+
+//activity title
+.activity-item-title {
+    font-weight: 400;
+    color: $gray900;
+}
+
+//pledge/sticker amount
+.activity-item-pledge {
+    color: $byzantium;
+    font-weight: 600;
+}
+
+.activity-item-update-message {
+    max-width: 50ch;
+    font-style: italic;
+    color: $dark-purple;
+}
+
+//activity creator
+#activity-item-creator {
+    color: $gray600;
+    font-size: 12px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+// .featured-aside-item {
+//     display: flex;
+//     flex-direction: column;
+
+//     img{
+//         width: 192px;
+//         height: 108px;
+//         background-size: cover;
+//         padding-right: 20px;
+//     }
+
+//     p{
+//         max-width: 50ch;
+//         font-size: 14px;
+//     }
+// }
+
+// .aside-description {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// #aside-featured-title {
+//     font-size: 16px;
+//     font-weight: 500;
+//     padding-bottom: 5px;
+// }
+
+
+// //aside footer/platforms to play the game
+// .aside-platforms {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+
+//     img {
+//         width: 20px;
+//         height: 20px;
+//         padding-right: 5px;
+//     }
+
+//     p{
+//         color: $gray600;
+//         font-size: 11px;
+//     }
+// }
+
+// //funding percentage
+// .funded-percent {
+//     color: $byzantium;
+//     font-weight: 500;
+// }
