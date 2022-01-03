@@ -1,12 +1,12 @@
 //globals
 @use "./partials/globals/fontstack";
 @use "./partials/globals/colorscheme";
-@use "./partials/globals/logic";
 @use "./partials/globals/global-styles";
 
 
 //utils
 @use "./partials/utils/text-quick-style";
+@use "./partials/utils/quickstyle";
 
 
 //sections
@@ -17,5 +17,5 @@
 
 //components
 @use "./partials/components/button";
-@use "./partials/components/quickstyle";
+
 

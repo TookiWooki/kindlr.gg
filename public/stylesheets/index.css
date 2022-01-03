@@ -81,6 +81,17 @@ a {
   font-weight: 1000;
 }
 
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.section-break-line {
+  border-bottom: 1px solid #ececec;
+  margin: 80px 0px 20px 0px;
+}
+
 .nav-logo {
   width: 60px;
 }
@@ -399,12 +410,6 @@ a {
 .btn.btn-lg {
   padding: 14px 42px;
   font-size: 22px;
-}
-
-.flex-horizontal {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */
