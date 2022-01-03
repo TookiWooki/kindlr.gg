@@ -24,4 +24,4 @@ Game-ification
 
 Backend (idk what this entails exactly yet..)
     - Firebase
-        - I've read its best to have all folders as main folders and try not to save information too many levels deep in the tree. That way I only pull the information I need instead of all the information above in the same tree. ex: instead of having projects folder inside of the creators folder, I will have them as seperate directories with information linking the two within each? I can't see me having to update the information within too often so this should be ok..
+        - I've read its best to have all folders as main folders and try not to save information too many levels deep in the tree. That way I only pull the information I need instead of all the information above in the same tree. ex: instead of having projects folder inside of the creators folder, I will have them as seperate directories with information linking the two within each? I can't see me having to update the information within too often so this should be ok..# kindlr.gg
