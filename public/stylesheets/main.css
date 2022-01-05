@@ -9,6 +9,12 @@
   margin: 80px 0px 20px 0px;
 }
 
+.stack-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .centered-text {
   text-align: center;
 }
@@ -104,6 +110,21 @@ p {
   font-size: 22px;
 }
 
+#hover-youtube:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+#hover-twitch:hover {
+  color: #6441A4;
+  text-decoration: none;
+}
+
+#hover-discord:hover {
+  color: #7289DA;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Red Hat Display", sans-serif;
 }
@@ -135,6 +156,25 @@ a {
   color: #8a8a8a;
   margin-top: 60px;
   margin-bottom: 25px;
+}
+
+.section-title-with-link {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.section-title-with-link h5 {
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+
+.section-title-with-link a {
+  font-size: 14px;
+  color: #9d9d9d;
+  margin-left: 20px;
 }
 
 .center-and-clamp {
@@ -340,6 +380,74 @@ p {
 
 #activity-item-creator:hover {
   text-decoration: underline;
+}
+
+.live-creators-container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.live-creator-block {
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.live-creator-top-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.live-creator-top-section img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+
+.live-creator-top-section a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.live-creator-top-section p {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+#live-creator-title {
+  font-weight: 600;
+  color: #820263ff;
+  font-size: 16px;
+}
+
+.live-creator-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.live-creator-bottom-section a {
+  text-decoration: none;
+  color: #636363;
+}
+
+.live-creator-bottom-section img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 10px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.live-creator-bottom-section p {
+  font-size: 14px;
+  color: #8a8a8a;
 }
 
 h1, h2, h3, h4, h5, h6 {

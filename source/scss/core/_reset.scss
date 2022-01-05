@@ -33,6 +33,26 @@ a {
     margin-bottom: 25px;
 }
 
+.section-title-with-link {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+
+
+    h5{
+        text-transform: uppercase;
+        color: $gray600;
+    }
+
+    a {
+        font-size: 14px;
+        color: $gray500;
+        margin-left: 20px;
+    }
+}
+
 //center & clamp container
 .center-and-clamp {
     width: 90%;

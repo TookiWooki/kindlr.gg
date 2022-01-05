@@ -174,4 +174,66 @@ p {
   text-decoration: underline;
 }
 
+.live-creators-container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.live-creator-block {
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.live-creator-top-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.live-creator-top-section img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 100%;
+}
+.live-creator-top-section a {
+  text-decoration: none;
+  color: inherit;
+}
+.live-creator-top-section p {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+#live-creator-title {
+  font-weight: 600;
+  color: #820263ff;
+  font-size: 16px;
+}
+
+.live-creator-bottom-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.live-creator-bottom-section a {
+  text-decoration: none;
+  color: #636363;
+}
+.live-creator-bottom-section img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 10px;
+  border-top: 1px solid #d8d8d8;
+}
+.live-creator-bottom-section p {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
 /*# sourceMappingURL=all.css.map */

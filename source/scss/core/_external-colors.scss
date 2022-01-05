@@ -1,0 +1,30 @@
+
+$youtube: #FF0000;
+$twitch: #6441A4;
+$discord: #7289DA;
+
+
+
+#hover-youtube {
+
+    &:hover{
+        color: $youtube;
+        text-decoration: none;
+    }
+}
+
+#hover-twitch {
+
+    &:hover{
+        color: $twitch;
+        text-decoration: none;
+    }
+}
+
+#hover-discord {
+
+    &:hover{
+        color: $discord;
+        text-decoration: none;
+    }
+}

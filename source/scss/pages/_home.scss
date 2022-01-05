@@ -216,3 +216,77 @@
         text-decoration: underline;
     }
 }
+
+
+
+///////////////////////////////////////////////
+//////////////Live Creators///////////////////
+/////////////////////////////////////////////
+.live-creators-container {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.live-creator-block {
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.live-creator-top-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        border-radius: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    p{
+        font-size: 14px;
+        color: $gray900;
+    }
+}
+
+#live-creator-title {
+    font-weight: 600;
+    color: $byzantium;
+    font-size: 16px;
+}
+
+.live-creator-bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: $gray800;
+    }
+
+    img {
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+        padding-top: 10px;
+        border-top: 1px solid $gray200;
+    }
+
+    p {
+        font-size: 14px;
+        color: $gray600;
+    }
+
+}

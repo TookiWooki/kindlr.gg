@@ -9,6 +9,12 @@
   margin: 80px 0px 20px 0px;
 }
 
+.stack-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .centered-text {
   text-align: center;
 }
