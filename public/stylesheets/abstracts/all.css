@@ -1,18 +1,52 @@
-/* Error: Undefined variable.
- *    ,
- * 37 |         color: $byzantium;
- *    |                ^^^^^^^^^^
- *    '
- *   source/scss/abstracts/utils/_text-quick-style.scss 37:16  @use
- *   source/scss/abstracts/all.scss 3:1                        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 37 \2502          color: $byzantium;\a    \2502                 ^^^^^^^^^^\a    \2575 \a   source/scss/abstracts/utils/_text-quick-style.scss 37:16  @use\a   source/scss/abstracts/all.scss 3:1                        root stylesheet";
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }
+
+.section-break-line {
+  border-bottom: 1px solid #ececec;
+  margin: 80px 0px 20px 0px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+
+.w200 {
+  font-weight: 200;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.w600 {
+  font-weight: 600;
+}
+
+.w800 {
+  font-weight: 800;
+}
+
+.w1000 {
+  font-weight: 1000;
+}
+
+#hover-purple {
+  font-size: 14px;
+}
+#hover-purple:hover {
+  color: #820263ff;
+}
+
+#hover-purple-underline:hover {
+  color: #820263ff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=all.css.map */

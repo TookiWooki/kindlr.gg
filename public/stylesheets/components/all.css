@@ -1,19 +1,49 @@
-/* Error: Undefined variable.
- *   ,
- * 9 |     font-family: $font-body;
- *   |                  ^^^^^^^^^^
- *   '
- *   source/scss/components/_button.scss 9:18   btn()
- *   source/scss/components/_button.scss 105:5  @use
- *   source/scss/components/all.scss 1:1        root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      font-family: $font-body;\a   \2502                   ^^^^^^^^^^\a   \2575 \a   source/scss/components/_button.scss 9:18   btn()\a   source/scss/components/_button.scss 105:5  @use\a   source/scss/components/all.scss 1:1        root stylesheet";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
 }
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #820263ff;
+  color: white;
+  font-weight: 400;
+  padding: 10px 34px;
+  font-size: 18px;
+}
+.btn:hover {
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  color: white;
+  background-color: #6e0254;
+  transition: all 0.2s ease;
+}
+.btn.btn-secondary {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #820263ff;
+  color: #820263ff;
+  font-weight: 500;
+  background-color: white;
+}
+.btn.btn-secondary:hover {
+  border-color: #5a0144;
+  color: #820263ff;
+  transition: all 0.2s ease;
+}
+.btn.btn-sm {
+  padding: 8px 28px;
+  font-size: 14px;
+}
+.btn.btn-lg {
+  padding: 14px 42px;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=all.css.map */

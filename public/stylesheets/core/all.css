@@ -1,18 +1,52 @@
-/* Error: Undefined variable.
- *    ,
- * 26 |     color: $gray600;
- *    |            ^^^^^^^^
- *    '
- *   source/scss/core/_reset.scss 26:12  @use
- *   source/scss/core/all.scss 2:1       root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 26 \2502      color: $gray600;\a    \2502             ^^^^^^^^\a    \2575 \a   source/scss/core/_reset.scss 26:12  @use\a   source/scss/core/all.scss 2:1       root stylesheet";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
 }
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  cursor: pointer;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.center-and-clamp {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-page-heading {
+  margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+/*# sourceMappingURL=all.css.map */

@@ -1,3 +1,6 @@
+@import "../core/colors";
+@import "../core/typography";
+
 //reset browser styling
 * {
     margin: 0;
@@ -17,7 +20,9 @@ body{
 
 //If the pointer is over a link, display a pointer for the mouse
 a {
+    // all:unset;
     cursor: pointer;
+    // text-decoration: inherit;
   }
 
   //section headings/titles

@@ -1,3 +1,5 @@
+@import "../../core/colors";
+
 
 .centered-text {
     text-align: center;
@@ -30,7 +32,7 @@
 }
 
 //hover on a link turns purple
-.hover-purple {
+#hover-purple {
     font-size: 14px;
 
     &:hover{
@@ -39,7 +41,7 @@
 }
 
 //hover on a link turns purple & underlined
-.hover-purple-underline {
+#hover-purple-underline {
 
     &:hover{
         color: $byzantium;
