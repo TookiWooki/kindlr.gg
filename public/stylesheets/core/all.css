@@ -1,0 +1,84 @@
+#hover-youtube:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+#hover-twitch:hover {
+  color: #6441A4;
+  text-decoration: none;
+}
+
+#hover-discord:hover {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  cursor: pointer;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.section-title-with-link {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.section-title-with-link h5 {
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+.section-title-with-link a {
+  font-size: 14px;
+  color: #9d9d9d;
+  margin-left: 20px;
+}
+
+.center-and-clamp {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-page-heading {
+  margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+/*# sourceMappingURL=all.css.map */

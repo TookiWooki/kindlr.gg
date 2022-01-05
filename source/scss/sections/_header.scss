@@ -1,0 +1,72 @@
+@import "../core/colors";
+@import "../core/typography";
+
+//logo
+.nav-logo {
+    width: 60px;
+}
+
+//container
+.nav-container {
+    padding: 28px 0px;
+    display: flex;
+    align-items: center;
+    font-family: $font-heading;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: sp;
+        margin-left: 10vw;
+
+        a {
+            align-self: center;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: $byzantium;
+            transition: all 0.3s ease;
+        }
+
+        li {
+            list-style-type: none;
+            margin: 0vw 3vw;
+        }
+
+        a:last-of-type {
+            margin-right: 3vw;
+        }
+    }
+}
+
+.steam-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+.steam-logged-in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
+
+#user-signed-in {
+    color: $green-munsell;
+    text-decoration: none;
+
+    &:active{
+        color: $green-munsell 
+    }
+}

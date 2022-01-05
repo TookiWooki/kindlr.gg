@@ -1,0 +1,66 @@
+@import "../core/colors";
+@import "../core/typography";
+
+//reset browser styling
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//base of custom styling
+html{
+    display: flex;
+    justify-content: center;
+}
+
+//mainly for background decorations
+body{
+    position: relative;
+}
+
+//If the pointer is over a link, display a pointer for the mouse
+a {
+    // all:unset;
+    cursor: pointer;
+    // text-decoration: inherit;
+  }
+
+  //section headings/titles
+.section-title {
+    text-transform: uppercase;
+    color: $gray600;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.section-title-with-link {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+
+
+    h5{
+        text-transform: uppercase;
+        color: $gray600;
+    }
+
+    a {
+        font-size: 14px;
+        color: $gray500;
+        margin-left: 20px;
+    }
+}
+
+//center & clamp container
+.center-and-clamp {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//add some space to the LARGE heading
+.main-page-heading {
+    margin-top: 40px;
+}

@@ -1,0 +1,18 @@
+@import "../../core/colors";
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.section-break-line {
+    border-bottom: 1px solid $gray100;
+    margin: 80px 0px 20px 0px;
+}
+
+.stack-vertically{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
