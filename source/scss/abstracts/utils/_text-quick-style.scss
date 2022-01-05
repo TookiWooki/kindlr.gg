@@ -28,3 +28,21 @@
 .w1000{
     font-weight: 1000;
 }
+
+//hover on a link turns purple
+.hover-purple {
+    font-size: 14px;
+
+    &:hover{
+        color: $byzantium;
+    }
+}
+
+//hover on a link turns purple & underlined
+.hover-purple-underline {
+
+    &:hover{
+        color: $byzantium;
+        text-decoration: underline;
+    }
+}

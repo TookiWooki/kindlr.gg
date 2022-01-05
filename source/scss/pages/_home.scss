@@ -1,14 +1,34 @@
-@import "../globals/colorscheme";
+@import "../core/colors";
+@import "../core/typography";
 
-//container
+
+
+//////////////////////
+//background decor///
+////////////////////
+.background-decoration-right{
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-15deg);
+    top: 120px;
+    right: -300px;
+    overflow: hidden;
+}
+
+
+///////////////////////////////////////////////
+//Featured Project - User Updates Container///
+/////////////////////////////////////////////
+
+//main container
 .featured-container {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
-////////////////////
-//left container///
-//////////////////
+
+///////////////////////////////////////
+//left container - Featured Project///
 .featured-left {
     width: 50%;
     padding-right: 40px;
@@ -29,19 +49,21 @@
 //percent funded tag
 .tag-container {
     position: relative;
+
+    .percent-funded-tag {
+        font-size: 16px;
+        color: white;
+        background-color: $byzantium;
+        border-radius: 8px 0px 0px 8px;
+        padding: 4px 10px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        box-shadow: -2px 2px 4px $dark-purple;
+    }
 }
 
-.percent-funded-tag {
-    font-size: 16px;
-    color: white;
-    background-color: $byzantium;
-    border-radius: 8px 0px 0px 8px;
-    padding: 4px 10px;
-    position: absolute;
-    top: 10px;
-    right: 0px;
-    box-shadow: -2px 2px 4px $dark-purple;
-}
+
 
 //featured footer container
 .featured-footer-container {
@@ -67,9 +89,8 @@
 
 }
 
-////////////////////
-//right container//
-//////////////////
+///////////////////////////////////
+//right container - User Updates//
 .featured-right {
     display: flex;
     flex-direction: column;
@@ -194,67 +215,4 @@
     &:hover {
         text-decoration: underline;
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-// .featured-aside-item {
-//     display: flex;
-//     flex-direction: column;
-
-//     img{
-//         width: 192px;
-//         height: 108px;
-//         background-size: cover;
-//         padding-right: 20px;
-//     }
-
-//     p{
-//         max-width: 50ch;
-//         font-size: 14px;
-//     }
-// }
-
-// .aside-description {
-//     display: flex;
-//     flex-direction: column;
-// }
-
-// #aside-featured-title {
-//     font-size: 16px;
-//     font-weight: 500;
-//     padding-bottom: 5px;
-// }
-
-
-// //aside footer/platforms to play the game
-// .aside-platforms {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-
-//     img {
-//         width: 20px;
-//         height: 20px;
-//         padding-right: 5px;
-//     }
-
-//     p{
-//         color: $gray600;
-//         font-size: 11px;
-//     }
-// }
-
-// //funding percentage
-// .funded-percent {
-//     color: $byzantium;
-//     font-weight: 500;
-// }

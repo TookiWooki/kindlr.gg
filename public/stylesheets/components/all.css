@@ -1,0 +1,19 @@
+/* Error: Undefined variable.
+ *   ,
+ * 9 |     font-family: $font-body;
+ *   |                  ^^^^^^^^^^
+ *   '
+ *   source/scss/components/_button.scss 9:18   btn()
+ *   source/scss/components/_button.scss 105:5  @use
+ *   source/scss/components/all.scss 1:1        root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      font-family: $font-body;\a   \2502                   ^^^^^^^^^^\a   \2575 \a   source/scss/components/_button.scss 9:18   btn()\a   source/scss/components/_button.scss 105:5  @use\a   source/scss/components/all.scss 1:1        root stylesheet";
+}

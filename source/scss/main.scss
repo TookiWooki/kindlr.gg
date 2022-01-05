@@ -1,0 +1,20 @@
+
+
+//Abstract Files                     all the variables, mixins, and similar components
+@use "abstracts/all";
+
+//Components                         styles for all components that are to be created for one website, including buttons, carousels, tabs, modals, and the like.
+@use "abstracts/all";
+
+//Core Files                         typography, resets, and boilerplate code, used across the whole website. Once you write this code, there is no further overwriting.
+@use "abstracts/all";
+
+//Layout                             styles necessary for the layout of the site, i.e., header, footer.
+@use "abstracts/all";
+
+//Pages                              styles for every individual page. Almost every page needs to have specific styles that are to be used only for that particular page
+@use "abstracts/all";
+
+//Sections                           for every section to be reusable and the sass code to be easily accessible
+@use "abstracts/all";
+

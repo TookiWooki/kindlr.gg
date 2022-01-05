@@ -1,0 +1,177 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.background-decoration-right {
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-15deg);
+  top: 120px;
+  right: -300px;
+  overflow: hidden;
+}
+
+.featured-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.featured-left {
+  width: 50%;
+  padding-right: 40px;
+  border-right: 1px solid #d8d8d8;
+}
+.featured-left img {
+  width: 100%;
+}
+.featured-left h2 {
+  margin-bottom: 20px;
+}
+
+.tag-container {
+  position: relative;
+}
+.tag-container .percent-funded-tag {
+  font-size: 16px;
+  color: white;
+  background-color: #820263ff;
+  border-radius: 8px 0px 0px 8px;
+  padding: 4px 10px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  box-shadow: -2px 2px 4px #291720ff;
+}
+
+.featured-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-item-container img {
+  width: 30px;
+  margin-right: 10px;
+}
+.footer-item-container p {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.featured-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.user-steam-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.user-steam-info-container img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.user-steam-name-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-steam-stats {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.user-steam-stats p {
+  color: #8a8a8a;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.recent-kindlr-activity-container {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.activity-item {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+.activity-item img {
+  width: 192px;
+  height: 108px;
+  margin-right: 20px;
+}
+.activity-item p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.campaign-pledged {
+  box-shadow: -3px 0px 5px -2px #820263ff;
+  border-radius: 2px;
+}
+
+.campaign-update {
+  box-shadow: -4px 0px 3px -4px #04a777ff;
+  border-radius: 2px;
+}
+.campaign-update img {
+  width: 120px;
+  height: 67.5px;
+}
+
+#campaign-update-tag {
+  color: #04a777ff;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  padding-bottom: 0px;
+}
+
+.activity-item-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-item-title {
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.activity-item-pledge {
+  color: #820263ff;
+  font-weight: 600;
+}
+
+.activity-item-update-message {
+  max-width: 50ch;
+  font-style: italic;
+  color: #291720ff;
+}
+
+#activity-item-creator {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+#activity-item-creator:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=all.css.map */
