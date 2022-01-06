@@ -16,7 +16,7 @@
     ul{
         display: flex;
         flex-direction: row;
-        justify-content: sp;
+        justify-content: space-evenly;
         margin-left: 10vw;
 
         a {
@@ -49,6 +49,11 @@
         height: 30px;
         margin-right: 10px;
     }
+
+    p {
+        color: $dogwood-rose;
+    }
+
 }
 
 .steam-logged-in {

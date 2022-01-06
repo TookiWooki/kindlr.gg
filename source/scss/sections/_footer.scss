@@ -1,0 +1,111 @@
+@import "../core/colors";
+@import "../core/typography";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    // border-top: 1px solid $byzantium;
+    background-color: $dark-purple;
+
+}
+
+//The left most column of the footer (the footer-logo and footer-column classes are combined to format this column)
+.footer-logo{
+    display: flex;
+    margin: auto 0px;
+    
+    h5 {
+        margin-bottom: 0px;
+    }
+
+    img { 
+        width: 60px;
+        height: 60px;
+    }
+
+    p {
+        color: $gray200;
+        font-size: 14px;
+    }
+
+}
+
+//Each column in the footer
+.footer-column {
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+        text-transform: uppercase;
+        color: $gray200;
+        margin-bottom: 3px;
+        font-family: $font-heading;
+    }
+
+    a {
+        text-decoration: none;
+        color: $gray300;
+        padding: 3px 0px;
+        font-family: $font-body;
+        font-size: 14px;
+
+        &:hover {
+            color: $gray100;
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
+
+    }
+
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $byzantium;
+    padding: 10px 3vw;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        color: $gray300;
+    }
+
+}
+
+.kindlr-social {
+    margin-right: 20px;
+    
+    &:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.1);
+    }
+}
+
+
+.footer-bottom-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        margin-right: 4px;
+    }
+}
+
+.footer-bottom-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
