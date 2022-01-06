@@ -1,0 +1,27 @@
+@use "../core/colors";
+@use "../core/typography";
+
+.quicksearch-nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+//gaming platforms ie. ps5, nintendo switch, xbox, etc.
+.quicksearch-platforms {
+    display: flex;
+    flex-direction: column;
+}
+
+.quicksearch-platform {
+
+}
+
+//gaming operating system availability
+.quicksearch-operating-systems {
+
+}
+
+.quicksearch-operating-system {
+
+}
