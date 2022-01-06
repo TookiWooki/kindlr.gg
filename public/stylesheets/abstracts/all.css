@@ -15,6 +15,28 @@
   justify-content: center;
 }
 
+.external-link-w-icon {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.external-link-w-icon a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.external-link-w-icon a:hover {
+  color: #820263ff;
+}
+
+#external-link-icon {
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  margin: auto 0px;
+  opacity: 0.7;
+}
+
 .centered-text {
   text-align: center;
 }

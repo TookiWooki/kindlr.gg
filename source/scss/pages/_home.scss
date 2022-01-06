@@ -145,6 +145,7 @@
     display: flex;
     flex-direction: row;
     padding: 8px;
+    margin-bottom: 10px;
 
     img {
         width: 192px;
@@ -225,7 +226,7 @@
 .live-creators-container {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.75fr);
 }
 
 .live-creator-block {
@@ -241,12 +242,13 @@
     flex-direction: row;
     align-content: center;
 
+
     img {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 5px;
+        width: 50px;
+        height: 50px;
         margin-right: 5px;
         border-radius: 100%;
+        padding: 10px;
     }
 
     a {
@@ -257,8 +259,10 @@
     p{
         font-size: 14px;
         color: $gray900;
+        margin-right: 5px;
     }
 }
+
 
 #live-creator-title {
     font-weight: 600;
@@ -272,8 +276,9 @@
     justify-content: center;
 
     a {
+        font-size: 14px;
         text-decoration: none;
-        color: $gray800;
+        color: $gray600;
     }
 
     img {
@@ -283,10 +288,4 @@
         padding-top: 10px;
         border-top: 1px solid $gray200;
     }
-
-    p {
-        font-size: 14px;
-        color: $gray600;
-    }
-
 }
