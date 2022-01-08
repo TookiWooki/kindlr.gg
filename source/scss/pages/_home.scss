@@ -230,6 +230,7 @@
 }
 
 .live-creator-block {
+    display: flex;
     flex-direction: column;
     align-content: center;
     background-color: white;
@@ -275,6 +276,7 @@
     flex-direction: column;
     justify-content: center;
 
+
     a {
         font-size: 14px;
         text-decoration: none;
@@ -288,4 +290,23 @@
         padding-top: 10px;
         border-top: 1px solid $gray200;
     }
+
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
 }
+
+.live-creator-live-project-tag {
+    font-size: 14px;
+    color: white;
+    background-color: $byzantium;
+    border-radius: 8px 0px 0px 8px;
+    padding: 4px 6px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    box-shadow: -2px 2px 4px $dark-purple;
+}
+

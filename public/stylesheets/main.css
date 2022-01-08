@@ -415,6 +415,7 @@ p {
 }
 
 .live-creator-block {
+  display: flex;
   flex-direction: column;
   align-content: center;
   background-color: white;
@@ -471,6 +472,23 @@ p {
   object-fit: cover;
   padding-top: 10px;
   border-top: 1px solid #d8d8d8;
+}
+
+.live-creator-bottom-section p {
+  display: flex;
+  justify-content: center;
+}
+
+.live-creator-live-project-tag {
+  font-size: 14px;
+  color: white;
+  background-color: #820263ff;
+  border-radius: 8px 0px 0px 8px;
+  padding: 4px 6px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  box-shadow: -2px 2px 4px #291720ff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -581,12 +599,56 @@ p {
   align-items: center;
 }
 
+#hover-youtube:hover {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+#hover-twitch:hover {
+  color: #6441A4;
+  text-decoration: none;
+}
+
+#hover-discord:hover {
+  color: #7289DA;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Red Hat Display", sans-serif;
 }
 
 p {
   font-family: "Red Hat Text", sans-serif;
+}
+
+.top-promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.top-promo p {
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.top-promo a {
+  text-decoration: none;
+  color: #680D0D;
+}
+
+.top-promo a:hover {
+  color: #d90368ff;
+}
+
+.top-promo img {
+  width: 100px;
+  height: 24px;
+  padding-left: 10px;
 }
 
 .nav-logo {
