@@ -53,7 +53,7 @@
     .percent-funded-tag {
         font-size: 16px;
         color: white;
-        background-color: $byzantium;
+        background-image: $gradient-bottom-right-purple;
         border-radius: 8px 0px 0px 8px;
         padding: 4px 10px;
         position: absolute;
@@ -147,16 +147,16 @@
     padding: 8px;
     margin-bottom: 10px;
 
-    img {
-        width: 192px;
-        height: 108px;
-        margin-right: 20px;
-    }
-
     p {
         font-size: 14px;
         padding-bottom: 5px;
     }
+}
+
+.activity-item-campaign-banner{
+    width: 192px;
+    height: 108px;
+    margin-right: 20px;
 }
 
 //special style for pledging to a campaign
@@ -198,8 +198,21 @@
 
 //pledge/sticker amount
 .activity-item-pledge {
-    color: $byzantium;
-    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    img {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+
+    p{
+        color: $dogwood-rose;
+        font-weight: 600;
+    }
+    
 }
 
 .activity-item-update-message {
@@ -294,6 +307,7 @@
     p {
         display: flex;
         justify-content: center;
+        padding-top: 2px;
     }
 
 }
@@ -301,7 +315,7 @@
 .live-creator-live-project-tag {
     font-size: 14px;
     color: white;
-    background-color: $byzantium;
+    background-image: $gradient-bottom-right-purple;
     border-radius: 8px 0px 0px 8px;
     padding: 4px 6px;
     position: absolute;

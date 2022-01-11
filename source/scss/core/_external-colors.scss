@@ -11,6 +11,7 @@ $gamers-for-good: #680D0D;
     &:hover{
         color: $youtube;
         text-decoration: none;
+        transition: all 0.2s ease-in;
     }
 }
 
@@ -19,6 +20,7 @@ $gamers-for-good: #680D0D;
     &:hover{
         color: $twitch;
         text-decoration: none;
+        transition: all 0.2s ease-in;
     }
 }
 
@@ -27,5 +29,6 @@ $gamers-for-good: #680D0D;
     &:hover{
         color: $discord;
         text-decoration: none;
+        transition: all 0.2s ease-in;
     }
 }

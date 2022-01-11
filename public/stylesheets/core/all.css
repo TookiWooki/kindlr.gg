@@ -1,16 +1,19 @@
 #hover-youtube:hover {
   color: #FF0000;
   text-decoration: none;
+  transition: all 0.2s ease-in;
 }
 
 #hover-twitch:hover {
   color: #6441A4;
   text-decoration: none;
+  transition: all 0.2s ease-in;
 }
 
 #hover-discord:hover {
   color: #7289DA;
   text-decoration: none;
+  transition: all 0.2s ease-in;
 }
 
 h1, h2, h3, h4, h5, h6 {
