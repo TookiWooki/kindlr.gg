@@ -24,10 +24,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: $gray300;
-    border-style: solid;
+    border: 1px solid $gray200;
     width: 100%;
-    border-width: 1px;
     background-color: white;
 }
 

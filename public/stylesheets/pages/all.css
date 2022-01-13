@@ -12,7 +12,6 @@ p {
   transform: rotate(-15deg);
   top: 120px;
   right: -300px;
-  overflow: hidden;
 }
 
 .featured-container {

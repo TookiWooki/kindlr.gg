@@ -1,0 +1,84 @@
+@use "../core/typography";
+@import "../core/colors";
+
+
+.categories-container {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+//gaming platforms ie. ps5, nintendo switch, xbox, etc.
+.categories-platforms {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+
+    a{
+        text-decoration: none;
+        border: 1px solid $gray100;   
+        border-radius: 4px;
+
+        &:hover {
+            border: 1px solid $byzantium;
+        }
+    }
+}
+
+.category-platform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 8vw;
+    padding: 5px 10px;
+
+    img {
+        width: 60px;
+        height: 60px;
+        margin: 10px 0px;
+    }
+
+    p {
+        color: $gray800;
+        text-align: center;
+
+        &:hover {
+            color: $byzantium;
+            text-decoration: underline;
+        }
+    }
+}
+
+//gaming operating system availability
+.quicksearch-operating-systems {
+    display: flex;
+    flex-direction: column;
+}
+
+.quicksearch-operating-system {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // border: 1px solid $gray400;
+    padding: 5px;
+
+    img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        margin: 20px 10px;
+    }
+
+    p {
+        text-decoration: none;
+
+        // &:hover {
+
+        // }
+    }
+
+}
+
+
+//THIS SECTION SHOULD LOOK LIKE GOOGLE SEARCH CARDS AT THE TOP OF THIER SEARCH PAGE, BUT SMALLER?
