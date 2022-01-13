@@ -1,5 +1,37 @@
 @import "../core/colors";
+@import "../core/external-colors";
 @import "../core/typography";
+
+
+.top-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $gray300;
+
+    p{
+        color: $gray600;
+        font-size: 14px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $gamers-for-good;
+
+        &:hover {
+            color: $dogwood-rose; 
+        }
+    }
+
+    img {
+        width: 100px;
+        height: 24px;
+        padding-left: 10px;
+    }
+
+}
 
 //logo
 .nav-logo {
