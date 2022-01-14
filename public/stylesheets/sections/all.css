@@ -309,30 +309,5 @@ p {
   color: #636363;
   text-align: center;
 }
-.category-platform p:hover {
-  color: #820263ff;
-  text-decoration: underline;
-}
-
-.quicksearch-operating-systems {
-  display: flex;
-  flex-direction: column;
-}
-
-.quicksearch-operating-system {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 5px;
-}
-.quicksearch-operating-system img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  margin: 20px 10px;
-}
-.quicksearch-operating-system p {
-  text-decoration: none;
-}
 
 /*# sourceMappingURL=all.css.map */

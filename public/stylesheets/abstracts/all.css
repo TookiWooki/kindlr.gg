@@ -37,6 +37,13 @@
   opacity: 0.7;
 }
 
+.visibility-hidden {
+  visibility: hidden;
+}
+.visibility-hidden p {
+  color: white;
+}
+
 .centered-text {
   text-align: center;
 }
@@ -75,6 +82,13 @@
 #hover-purple-underline:hover {
   color: #820263ff;
   text-decoration: underline;
+}
+
+#sm-text-link-center {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=all.css.map */

@@ -42,42 +42,7 @@
     p {
         color: $gray800;
         text-align: center;
-
-        &:hover {
-            color: $byzantium;
-            text-decoration: underline;
-        }
     }
-}
-
-//gaming operating system availability
-.quicksearch-operating-systems {
-    display: flex;
-    flex-direction: column;
-}
-
-.quicksearch-operating-system {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    // border: 1px solid $gray400;
-    padding: 5px;
-
-    img {
-        width: 60px;
-        height: 60px;
-        object-fit: contain;
-        margin: 20px 10px;
-    }
-
-    p {
-        text-decoration: none;
-
-        // &:hover {
-
-        // }
-    }
-
 }
 
 
