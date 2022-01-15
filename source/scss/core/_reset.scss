@@ -5,6 +5,9 @@
 * {
     margin: 0;
     padding: 0;
+//Need to fix this so I get rid of the horizontal scroll, but still have the overflow.
+    // overflow-x: hidden;
+    // overflow-y: scroll;
 }
 
 //base of custom styling
@@ -59,6 +62,7 @@ a {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 //add some space to the LARGE heading

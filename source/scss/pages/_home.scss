@@ -12,7 +12,6 @@
     transform: rotate(-15deg);
     top: 120px;
     right: -300px;
-    overflow: hidden;
 }
 
 
@@ -201,6 +200,7 @@
     display: flex;
     flex-direction: row;
     align-content: center;
+    margin: auto 0px;
 
     img {
         width: 18px;
@@ -238,8 +238,8 @@
 /////////////////////////////////////////////
 .live-creators-container {
     display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(3, 0.75fr);
+    gap: 20px;
+    grid-template-columns: 1fr repeat(2, 1fr) 1fr;
 }
 
 .live-creator-block {
@@ -324,3 +324,45 @@
     box-shadow: -2px 2px 4px $dark-purple;
 }
 
+//Kindlr.gg Ad to intice people to create a project
+.live-creator-create-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: $gradient-bottom-right-purple ;
+    height: 170px;
+    // border: 1px solid $gray200;
+    border-radius: 4px;
+    margin: auto 0px;
+    margin-top: 10px;
+    border-top: 1px solid $gray200;
+
+    img {
+        width: 60px;
+        height: 60px;
+        border-top: 0px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+
+    p {
+        color: $gray100;
+        font-size: 16px;
+    }
+
+    &:hover {
+        transition: all .1s ease-in;
+        transform: scale(1.02);
+    }
+
+}
+
+.create-project-avatar-bg{
+    background-image: $gradient-bottom-right-purple;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin: 10px;
+}
