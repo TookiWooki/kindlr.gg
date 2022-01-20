@@ -263,6 +263,7 @@ p {
 .featured-left {
   width: 50%;
   padding-right: 40px;
+  padding-left: 40px;
   border-right: 1px solid #d8d8d8;
 }
 
@@ -272,6 +273,7 @@ p {
 
 .featured-left h2 {
   margin-bottom: 20px;
+  color: #4f4f4f;
 }
 
 .tag-container {
@@ -440,8 +442,8 @@ p {
 
 .live-creators-container {
   display: grid;
-  gap: 20px;
-  grid-template-columns: 1fr repeat(2, 1fr) 1fr;
+  gap: 10px;
+  grid-template-columns: repeat(4, 0.6fr);
 }
 
 .live-creator-block {
@@ -497,7 +499,7 @@ p {
 }
 
 .live-creator-bottom-section img {
-  height: 170px;
+  height: 140px;
   width: 100%;
   object-fit: cover;
   padding-top: 10px;
@@ -528,7 +530,7 @@ p {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(135deg, #d90368ff, #820263ff);
-  height: 170px;
+  height: 140px;
   border-radius: 4px;
   margin: auto 0px;
   margin-top: 10px;
@@ -539,13 +541,12 @@ p {
   width: 60px;
   height: 60px;
   border-top: 0px;
-  padding-bottom: 10px;
   padding-top: 0px;
 }
 
 .live-creator-create-project p {
   color: #ececec;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .live-creator-create-project:hover {
@@ -631,7 +632,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #820263ff;
+  background-image: linear-gradient(135deg, #d90368ff, #820263ff);
   padding: 10px 3vw;
 }
 
@@ -750,7 +751,7 @@ p {
 .nav-container ul a:hover {
   text-decoration: underline;
   color: #820263ff;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .nav-container ul li {
@@ -818,6 +819,7 @@ p {
   border-radius: 20px;
   margin-bottom: 30px;
   background-image: linear-gradient(135deg, #d90368ff, #820263ff);
+  opacity: 0.9;
 }
 
 .showcase-stat {
